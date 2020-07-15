@@ -1,22 +1,28 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 include "function1.php";
-echo "\e[95m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
-echo "\e[96m_________________   WARNING !!!!!!!!  _________________ \n";
-echo "\e[96m          INI SCRIB GOJEK INI GRATIS BRO                \n";
-echo "\e[96m           JADI GUNAKANLAH DENGAN BIJAK                 \n";
-echo "\e[96m          SCRIB INI TIDAK DI JUAL BELIKAN               \n";
-echo "\e[96m              SUBCRIBE CHANNEL YOUTUTBE :               \n";
-echo "\e[96m                    RAMZ TUTORIAL                       \n";
-echo "\e[96m       BIAR BISA MAKIN SEMANGAT BIKIN KONTENNYA         \n";
-echo "\e[96m ********\e[95m".date('[d-m-Y] [H:i:s]')."\e[96m********\n";
-echo "\e[95m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
-echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
-echo "\e[93m            \e[96m BERDOA DULU SEBELUM CLAIM \e[93m \n";
-echo "\e[96m  ==============================================\n";
-echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
+    system('clear');
+    // system('sleep 2');
 
-// function change(){
+
+echo color("green","    __         __                          \n");
+    echo color("green","   / /______ _/ /_  ____ ___  ______ _____  \n");
+    echo color("green","  / //_/ __ `/ __ \/ __ `/ / / / __ `/ __ \ \n");
+    echo color("green"," / ,< / /_/ / /_/ / /_/ / /_/ / /_/ / / / / \n");
+    echo color("green","/_/|_|\__,_/_.___/\__,_/\__, /\__,_/_/ /_/  \n");
+    echo color("green","                       /____/      \n");
+    echo "\n";
+    
+    echo "\e[93m      ╔══════════════════════════════════╗\n";
+                  echo "\e[91m      ║            Terimakasih           ║\n";
+                  echo "\e[91m      ║             THANKS TO            ║\n";
+                  echo "\e[91m      ║          Kabayan Managemen       ║\n";
+                  echo "\e[93m      ╚══════════════════════════════════╝\n";
+    
+    
+    
+    echo color("green","           Time  : ".date('[d-m-Y] [H:i:s]')."   \n");
+    echo color("green","                  Format Kode 62*** \n");
         $nama = nama();
         $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
         ulang:
@@ -59,9 +65,9 @@ echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         $uuid = getStr('"resource_owner_id":',',',$verif);
         echo color("nevy","+] Your access token : ".$token."\n\n");
         save("token.txt",$token);
-        echo color("nevy","\n===========(SUROBOYO LOSST REWEL PEGAT)===========");
-        echo "\n".color("nevy","!] GOFOOD1");
-        echo "\n".color("yellow","!] Please wait");
+        echo color("nevy","\n===========(TEGAL JAPANESS INDO)===========");
+        echo "\n".color("nevy","!] KAPAL API");
+        echo "\n".color("yellow","!] Srupuuttttt...");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
         sleep(10);
@@ -74,8 +80,8 @@ echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         }else{
         echo "\n".color("red","+] Message: ".$message);
 	gocar:
-        echo "\n".color("nevy","!] GOFOOD 2 ");
-        echo "\n".color("yellow","!] Please wait");
+        echo "\n".color("nevy","!] JAE SUSU");
+        echo "\n".color("yellow","!] Mendoan....");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
         sleep(10);
@@ -88,8 +94,8 @@ echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         }else{
         echo "\n".color("red","+] Message: ".$message);
         gofood:
-        echo "\n".color("nevy","!] GOFOOD3");
-        echo "\n".color("yellow","!] Please wait");
+        echo "\n".color("nevy","!] TEH TAWAR ADEM");
+        echo "\n".color("yellow","!] Banting....");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
         sleep(10);
